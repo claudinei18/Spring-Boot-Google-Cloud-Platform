@@ -24,10 +24,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class HelloworldApplication {
-  @RequestMapping("/")
+  /*@RequestMapping("/")
   public String home() {
     return "Hello World!";
-  }
+  }*/
 
   /**
    * <a href="https://cloud.google.com/appengine/docs/flexible/java/how-instances-are-managed#health_checking">
